@@ -14,7 +14,7 @@ void multiply(int a, int b){
 }
 
 int main(){
-    void (*fun_ptr_arr[])(int,int) = {add,subtract,multiply};// create a arr of function pointer which store address of all function in that array
+    void (*fun_ptr_arr[])(int,int) = {add,subtract,multiply};
     unsigned int ch,a=15, b=10;
     printf("Enter 0,1,2\n");
     scanf("%d",&ch);
