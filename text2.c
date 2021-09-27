@@ -19,6 +19,7 @@ int main(){
     printf("Enter 0,1,2\n");
     scanf("%d",&ch);
     if(ch>2) return 0;
+    printf("You entered ch: %d",ch);
     (*fun_ptr_arr[ch])(a,b);
     return 0;
 }
